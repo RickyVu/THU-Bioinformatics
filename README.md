@@ -113,4 +113,4 @@ ls -l test_command.gtf
 ---
 
 ## 课堂2作业
-[上机作业1] (classwork1.md) 
+[上机作业1](./classwork1.md) 
