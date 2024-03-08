@@ -65,7 +65,7 @@ cat test_command.gtf | wc -c
 ```
 2. ✅ 利用 grep 等命令尝试筛选并输出示例文件中以 chr_ 起始，并且基因id为 YDL248W 的行
 ```bash
-grep chr_ test_command.gtf | grep -w 'gene_id "YDL248W"'
+grep '^chr_' test_command.gtf | grep -w 'gene_id "YDL248W"'
 
 # Result
 # chr_IV  ensembl gene    1802    2953    .       +       .       gene_id "YDL248W"; gene_version "1";
@@ -111,3 +111,6 @@ ls -l test_command.gtf
 ```
 
 ---
+
+## 课堂2作业
+[上机作业1] (./classwork1.md) 
