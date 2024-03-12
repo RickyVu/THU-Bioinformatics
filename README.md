@@ -113,4 +113,7 @@ ls -l test_command.gtf
 ---
 
 ## 课堂2作业
-[上机作业1](./classwork1.md) 
+[上机作业1](./classwork1.md) <br>
+课后作业2:
+- [2.2 Practice Guide](./homework_2_2.md)
+- [2.3 Linux Basics](./homework_2_3.md)
