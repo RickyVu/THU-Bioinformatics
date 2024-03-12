@@ -17,13 +17,13 @@
     ```
 2. 统计 IV 号染色体上各类 feature （1.gtf文件的第3列，有些注释文件中还应同时考虑第2列） 的数目，并按升序排列。
     ```bash
-    test@bioinfo_docker:~/linux$ grep -v '^#' 1.gtf | awk '{print $3}' | sort | uniq -c | sort -k 1
-    6692 stop_codon
-    6700 start_codon
-    7050 CDS
-    7126 gene
-    7126 transcript
-    7553 exon
+    test@bioinfo_docker:~/linux$ grep -v '^#' 1.gtf | awk '$1=="IV" {print $3}' | sort | uniq -c | sort -n -k 1
+    853 start_codon
+    853 stop_codon
+    886 gene
+    886 transcript
+    895 CDS
+    933 exon
    ```
 3. 寻找不在 IV 号染色体上的所有负链上的基因中最长的2条 CDS 序列，输出他们的长度。
     ```bash
@@ -42,7 +42,7 @@
     ```
 5. 统计1.gtf列数
     ```bash
-    test@bioinfo_docker:~/linux$ grep -v "^#" 1.gtf | awk '{print "columns of size ", split($0, x, "\t") -2 + split($0, x, ";")-1 }' | sort -n -k 1 | uniq -c
+    test@bioinfo_docker:~/linux$ grep -v "^#" 1.gtf | awk '{print "columns of size ", split($0, x, "\t") -1 + split($0, x, ";")-1 }' | sort -n -k 1 | uniq -c
     2116 columns of size  11
     5010 columns of size  12
         1 columns of size  15
