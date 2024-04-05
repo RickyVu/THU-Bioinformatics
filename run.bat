@@ -1,2 +1,2 @@
 @echo off
-docker exec -it kunseng_bioinfo bash
+docker exec -u root -it kunseng_bioinfo bash
