@@ -130,3 +130,6 @@ ls -l test_command.gtf
 ## 课堂5作业
 课后作业5：
 - [Appendix VI. Genome Annotation & PartIII - 1.2 bedtools and samtools](./homework_5.md)
+
+## 课堂6作业
+[上机作业2](./classwork2.md) <br>
