@@ -133,3 +133,17 @@ ls -l test_command.gtf
 
 ## 课堂6作业
 [上机作业2](./classwork2.md) <br>
+
+## 课堂7作业
+[Part III - 2.1 Expresssion Matrix](./homework7.md) <br>
+
+## 课堂8作业
+[Part III - 2.3 Differential Expression with DEseq2 and edgeR](./homework_8_1.md) <br>
+
+[Part II - 3.1 GO & 3.2 KEGG](./homework_8_2.md) <br>
+
+## 课堂9作业
+[上机作业3](./classwork3.md) <br>
+
+## 课堂11作业
+[Part II - 3 ChIP-seq](./homework_11.md) <br>
