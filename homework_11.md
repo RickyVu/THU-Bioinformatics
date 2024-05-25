@@ -144,8 +144,7 @@ root@bioinfo_docker:/home/test/chip-seq# makeTagDirectory homework/input homewor
 
 ```
 ```bash
-root@bioinfo_docker:/home/test/chip-seq# findPeaks homework/ip/ -style factor -o output_homework/part.peak -i homework/i
-nput/
+root@bioinfo_docker:/home/test/chip-seq# findPeaks homework/ip/ -style factor -o output_homework/part.peak -i homework/input/
         Fragment Length = 233
         !!! Estimated genome size (from tag directory) is smaller than default
             genome size.  Using estimate (2097191) [to change specify -gsize]
@@ -207,8 +206,7 @@ nput/
 ```
 
 ```bash
-root@bioinfo_docker:/home/test/chip-seq# findMotifsGenome.pl output_homework/part.peak sacCer2 homework_output/part.moti
-f.output -len 8
+root@bioinfo_docker:/home/test/chip-seq# findMotifsGenome.pl output_homework/part.peak sacCer2 output_homework/part.motif.output -len 8
 
         Position file = output_homework/part.peak
         Genome = sacCer2

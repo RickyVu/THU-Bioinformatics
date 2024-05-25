@@ -147,3 +147,7 @@ ls -l test_command.gtf
 
 ## 课堂11作业
 [Part II - 3 ChIP-seq](./homework_11.md) <br>
+
+## 课堂12作业
+[上机作业4](./classwork4.md) <br>
+[Part IV. Machine Learning - 2 Machine Learning with R](./homework_12.md)
